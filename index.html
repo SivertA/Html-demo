@@ -46,8 +46,47 @@
   </figure>
 </section>
 <section id="kontakt">
-<h2>Kontakt</h2>
-...
+  <h2>Kontakt</h2>
+
+  <p>
+    Du kan finne mer informasjon på
+    <a href="https://www.usn.no/">Universitetet i Sørøst-Norges nettside</a>.
+  </p>
+
+  <p>
+    Kontakt studentguiden på
+    <a href="mailto:morra@di.com">morra@di.com</a>.
+  </p>
+  <h3>Send en henvendelse</h3>
+
+<p>
+  Dette er et øvingsskjema. Innsending krever en server som
+  tar imot opplysningene.
+</p>
+
+<form action="/send" method="post">
+  <p>
+    <label for="name">Navn (obligatorisk)</label>
+    <input
+      id="name"
+      name="name"
+      type="text"
+      autocomplete="name"
+      required>
+  </p>
+
+  <p>
+    <label for="email">E-post (obligatorisk)</label>
+    <input
+      id="email"
+      name="email"
+      type="email"
+      autocomplete="email"
+      required>
+  </p>
+
+  <button type="submit">Send henvendelse</button>
+</form>
 </section>
 </main>
 <footer>
